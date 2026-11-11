@@ -1,0 +1,104 @@
+[
+  {
+    "id": "SELF-0001",
+    "path": "self-0001.html",
+    "seal": "sha256:aa75c7efd74b7d0132f261ecaf8d3ab3afa0efd201ae4e67887b31742b83002a",
+    "computed_seal": "sha256:aa75c7efd74b7d0132f261ecaf8d3ab3afa0efd201ae4e67887b31742b83002a",
+    "file_sha256": "6609d3cf324c108db64f891fa09763aad65164eb7337a933af20f8f303459bac",
+    "origin": "machine",
+    "owner": "mitchell-d00 (declared)",
+    "effective_status": "retired",
+    "supersedes": []
+  },
+  {
+    "id": "SELF-0002",
+    "path": "self-0002.html",
+    "seal": "sha256:348e8c6feb9a591dcb3128f0acf95d5049461c001f99e72cd350776d2462ccbf",
+    "computed_seal": "sha256:348e8c6feb9a591dcb3128f0acf95d5049461c001f99e72cd350776d2462ccbf",
+    "file_sha256": "ef591d0ff5dd38f5d675a9a58ce98415df85657b74c0fcd3317de9cdf2845fab",
+    "origin": "machine",
+    "owner": "mitchell-d00 (declared)",
+    "effective_status": "retired",
+    "supersedes": [
+      "SELF-0001@sha256:aa75c7efd74b7d0132f261ecaf8d3ab3afa0efd201ae4e67887b31742b83002a"
+    ]
+  },
+  {
+    "id": "SELF-0003",
+    "path": "self-0003.html",
+    "seal": "sha256:ce3f734cd547e2265b8129dc4cbaa123cf10145a22f07a67a7812f95a72a324e",
+    "computed_seal": "sha256:ce3f734cd547e2265b8129dc4cbaa123cf10145a22f07a67a7812f95a72a324e",
+    "file_sha256": "5aabbc257cb0051ba3a1a9c64967cda09b997d37644268df6181c6be13370fde",
+    "origin": "machine",
+    "owner": "mitchell-d00 (declared)",
+    "effective_status": "retired",
+    "supersedes": [
+      "SELF-0002@sha256:348e8c6feb9a591dcb3128f0acf95d5049461c001f99e72cd350776d2462ccbf"
+    ]
+  },
+  {
+    "id": "SELF-0004",
+    "path": "self-0004.html",
+    "seal": "sha256:9ca39b6889b45315d96c654242634c7d28119f4a7dd34f1e29313a7c7d92c163",
+    "computed_seal": "sha256:9ca39b6889b45315d96c654242634c7d28119f4a7dd34f1e29313a7c7d92c163",
+    "file_sha256": "3a58bbca8ba79029921a8f98374e34ce7f1443bb45ef965bade8ce98eba95dfc",
+    "origin": "machine",
+    "owner": "mitchell-d00 (declared)",
+    "effective_status": "retired",
+    "supersedes": [
+      "SELF-0003@sha256:ce3f734cd547e2265b8129dc4cbaa123cf10145a22f07a67a7812f95a72a324e"
+    ]
+  },
+  {
+    "id": "SELF-0005",
+    "path": "self-0005.html",
+    "seal": "sha256:32510c5bf8a5ac434c8610cca0961809845d67aaac5b0a6e761d98a673caab49",
+    "computed_seal": "sha256:32510c5bf8a5ac434c8610cca0961809845d67aaac5b0a6e761d98a673caab49",
+    "file_sha256": "9c089f151fddeddfc1b476718848af297fb7662a347ab890a4a1e77bd0c8c785",
+    "origin": "machine",
+    "owner": "mitchell-d00 (declared)",
+    "effective_status": "retired",
+    "supersedes": [
+      "SELF-0004@sha256:9ca39b6889b45315d96c654242634c7d28119f4a7dd34f1e29313a7c7d92c163"
+    ]
+  },
+  {
+    "id": "SELF-0006",
+    "path": "self-0006.html",
+    "seal": "sha256:da21f8c2768e977a083745d166ec90dd8a94c8c7f12afc8082c63e443027ff77",
+    "computed_seal": "sha256:da21f8c2768e977a083745d166ec90dd8a94c8c7f12afc8082c63e443027ff77",
+    "file_sha256": "9493ad5496c92ea8eed0afb347700a8b619e16b5772270acea51aaa43a3a7ad8",
+    "origin": "machine",
+    "owner": "mitchell-d00 (declared)",
+    "effective_status": "retired",
+    "supersedes": [
+      "SELF-0005@sha256:32510c5bf8a5ac434c8610cca0961809845d67aaac5b0a6e761d98a673caab49"
+    ]
+  },
+  {
+    "id": "SELF-0007",
+    "path": "self-0007.html",
+    "seal": "sha256:cc1f259ae9c287242350bb236a4700a567a6d8d47775813740976677b9ee7b6f",
+    "computed_seal": "sha256:cc1f259ae9c287242350bb236a4700a567a6d8d47775813740976677b9ee7b6f",
+    "file_sha256": "c2e464827efce2f4bb0b64424d36cc87c98c2c1fb146f7f6023d645e39da6a28",
+    "origin": "machine",
+    "owner": "mitchell-d00 (declared)",
+    "effective_status": "retired",
+    "supersedes": [
+      "SELF-0006@sha256:da21f8c2768e977a083745d166ec90dd8a94c8c7f12afc8082c63e443027ff77"
+    ]
+  },
+  {
+    "id": "SELF-0008",
+    "path": "self-0008.html",
+    "seal": "sha256:788e1d1979a6137a504ec80301956f03940b8e97cbc185b55f2d5daa6db1675e",
+    "computed_seal": "sha256:788e1d1979a6137a504ec80301956f03940b8e97cbc185b55f2d5daa6db1675e",
+    "file_sha256": "61f2aa433a902677f24bc611756e5ee830a508959202b4458bb7fdf3179c3543",
+    "origin": "machine",
+    "owner": "mitchell-d00 (declared)",
+    "effective_status": "current",
+    "supersedes": [
+      "SELF-0007@sha256:cc1f259ae9c287242350bb236a4700a567a6d8d47775813740976677b9ee7b6f"
+    ]
+  }
+]

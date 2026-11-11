@@ -1,0 +1,13 @@
+{
+  "source_commit": "257e54a51edac272eb6b2441457f38a40485ee4d",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "started_at": "2026-11-11T13:05:28.919832+00:00",
+  "label_sha256": "c43dff1eec137a123eabb3a722c1793e90165f56314562c7106244f35d17a826",
+  "scripts": {
+    "run.py": "ceaf04aad1d10af98003c3fa4fbcb884f202aae9d071f0c1a9693bc14cc7c87d",
+    "adapter.py": "82da89b5bc1d80996521e20ca42baaf6da5fd9c1d0a818e2307ca580ac54de03",
+    "baseline.py": "787faf1cc3c9dccc2913e951dc6db9d2ca63d7efff624f933de149c181600002"
+  },
+  "design": "Exploratory, author-context synthetic engineering pilot; not preregistered or blind."
+}

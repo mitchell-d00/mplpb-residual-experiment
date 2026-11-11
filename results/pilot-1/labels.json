@@ -1,0 +1,208 @@
+[
+  {
+    "case": "intact",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/intact",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0001"
+    ],
+    "supported_ids": [
+      "DOC-0001"
+    ],
+    "ineligible_ids": [],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "revision",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/revision",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0002"
+    ],
+    "supported_ids": [
+      "DOC-0002"
+    ],
+    "ineligible_ids": [
+      "DOC-0001"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "tampered",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/tampered",
+    "question": "What is the kettle color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0001"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "tampered_successor",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/tampered_successor",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0001"
+    ],
+    "supported_ids": [
+      "DOC-0001"
+    ],
+    "ineligible_ids": [
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "ambiguous",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/ambiguous",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0001",
+      "DOC-0002"
+    ],
+    "supported_ids": [],
+    "ineligible_ids": [],
+    "ambiguous": true,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "stale_replaced",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/stale_replaced",
+    "question": "What is the lantern color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": true,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "stale_withdrawn",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/stale_withdrawn",
+    "question": "What is the lantern color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": true,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "withdrawn_chain",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/withdrawn_chain",
+    "question": "What is the kettle color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0001",
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "unsupported",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/unsupported",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0002"
+    ],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0001"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "unknown",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/unknown",
+    "question": "What is the lantern color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "wrong_pin",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/wrong_pin",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0001"
+    ],
+    "supported_ids": [
+      "DOC-0001"
+    ],
+    "ineligible_ids": [
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "duplicate",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/duplicate",
+    "question": "What is the kettle color?",
+    "eligible_ids": [],
+    "supported_ids": [],
+    "ineligible_ids": [
+      "DOC-0001"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "rechecked",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/rechecked",
+    "question": "What is the lantern color?",
+    "eligible_ids": [
+      "DOC-0004"
+    ],
+    "supported_ids": [
+      "DOC-0004"
+    ],
+    "ineligible_ids": [
+      "DOC-0002"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  },
+  {
+    "case": "author_neutral",
+    "root": "/workspace/mplpb-residual-experiment/results/pilot-1/fixtures/author_neutral",
+    "question": "What is the kettle color?",
+    "eligible_ids": [
+      "DOC-0002"
+    ],
+    "supported_ids": [
+      "DOC-0002"
+    ],
+    "ineligible_ids": [
+      "DOC-0001"
+    ],
+    "ambiguous": false,
+    "stale": false,
+    "note": "author_neutral is a synthetic same-owner revision, not the historical Arc"
+  }
+]

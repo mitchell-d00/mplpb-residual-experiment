@@ -1,0 +1,95 @@
+Executed residual pilot — 11 November 2026
+
+Scope
+14 isolated, developer-context synthetic fixtures; four explicitly defined read
+conditions; two read interfaces per condition. 112 fresh reader processes plus
+14 validation processes and six public-corpus operations. Python 3.12.14.
+Combined MPLPB commit: 257e54a51edac272eb6b2441457f38a40485ee4d.
+No upstream source was modified. No independent or blind validation is claimed.
+
+Measured counts (numerator / denominator)
+Metric                                     A       B       C       D
+Ineligible-claim serving rate (lower)       9/11    7/11    0/11    0/11
+Ambiguous-ownership detection (higher)      0/1     0/1     1/1     1/1
+Stale-derivative rejection (higher)         0/2     0/2     2/2     2/2
+Supported-answer false promotion (lower)    7/8     7/8     0/8     0/8
+Answerable-query coverage (higher)          3/6     4/6     6/6     6/6
+
+Denominators and scoring
+Ineligible serving: retrieval returned an explicitly labelled ineligible ID,
+among 11 fixtures containing a query-relevant ineligible page. This is a
+per-query opportunity rate, not a rate per served page. Ambiguity: returned
+kind=ambiguous on the one fixture with two independent eligible scope owners.
+Stale rejection: no source returned on either stale-derivative fixture.
+False promotion: answer_supported=true among eight fixtures without a unique
+eligible, supported answer. This includes ambiguity and eligibility failures,
+not only the single body-support-negative control. Coverage: a supported answer
+from a labelled eligible, supporting ID on the six answerable queries. The
+first and revised same-owner cases are correlated controls, not independent
+statistical observations. No confidence interval or population estimate is
+implied by these small, purpose-built counts.
+
+Interpretation
+C and D match on every normalized read and answer decision in this suite.
+The independent conventional gate therefore matches the observed stop/refuse
+behavior on the declared subset. That limits a claim of architectural necessity
+or superiority. A/B merely expose what happens when these particular consumers
+omit eligibility and support checks; they do not stand for every conventional
+system or prove that Git cannot enforce such checks.
+
+The body-support control is decisive for the paper's retrieval distinction:
+in 'unsupported', C and D retrieve the valid DOC-0002, but both strict answer
+paths refuse. A/B are intentionally constructed consumers that promote source
+text. Their promotion errors are not attributed to the bare storage format.
+
+The damaged-successor fixture explicitly restores the predecessor's declared
+status to current to model an incomplete revision (the published P2 setup).
+Damaging a successor does not itself undo an already recorded retirement or
+withdrawal. This setup is retained in the runner and fixture bytes.
+
+Public self-reference execution
+The complete unmodified examples/system corpus validates with:
+8 record(s): 1 current, 7 retired; 0 error(s), 0 warning(s).
+Its SELF-0001 -> ... -> SELF-0008 chain remains inspectable. The gated retrieval
+selects SELF-0008, and 'What is MPLPB?' returns kind=return, id=SELF-0008,
+answer_supported=true. Full seals and file digests: public-records.json.
+Exact commands, exit codes, and full output: commands.jsonl, public:* tags.
+These machine-origin pages demonstrate actual self-description revision;
+they do not establish the historical Arc pruning as a CLI execution.
+
+Historical self-application: two distinct papers
+This Arc: 2024 — Late May 2026 and Tomorrow (Research Arc of McPhetridge Stack)
+https://philarchive.org/rec/MCPTAD-2
+Critical Self View (reflective/meta layer) Arc 2024 - 2026 Pruning
+https://philarchive.org/rec/MCPCSV
+
+The indexed original claims completion and self-regulation. The indexed critique
+explicitly subjects the original's closure claims to the same eliminative
+requirements, rejects the closure elements, and retains useful documentation.
+This is substantive documented application of the method to the writer's own
+claims. It should replace the manuscript's anonymous hypothetical as the
+historical example. It is neither a fabricated ledger event nor proof of
+author-independent machine evaluation. The research arc spans 2024–2026; the
+archive entries give 2026-05-18 and 2026-05-20, respectively. These are archive
+metadata, not a claim about when an evaluation was executed. A profile's June
+description conflicts with the latter date and is not used to date this case.
+
+Access limitation
+Search-indexed primary-source records and version metadata were accessible on
+11 November 2026. Direct record fetches were blocked by HTTP 403/Cloudflare.
+No complete downloaded Arc manuscript, original corpus seal, MPLPB page ID,
+or historical CLI transcript has been verified for either Arc paper here.
+MCPTAD-2 and MCPCSV are archive identifiers, not MPLPB document identifiers.
+Do not present hashes of newly captured text as historical content seals.
+
+Reproduction and verification
+See README.md. python check.py results/pilot-1 passed: 56 paired decisions,
+fixture hashes, refusal/retrieval distinction, validation failures for corrupt
+fixtures, and the unmodified public self-reference chain. Raw evidence is
+retained even when validate returns exit 1 as expected for damaged fixtures.
+
+Remaining work
+Independently authored and held-out probes; more ambiguity cases; broad query
+and delivery-policy coverage; usability/maintenance comparisons; original Arc
+source capture and any pre-existing status/lineage records. These pilot results
+are engineering evidence, not a general reasoning benchmark or a novelty proof.

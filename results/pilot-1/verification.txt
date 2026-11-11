@@ -1,0 +1,1 @@
+PASS: 56 paired decisions; immutable fixture digests; refusal/retrieval distinction; public self-reference chain.

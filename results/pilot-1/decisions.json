@@ -1,0 +1,786 @@
+[
+  {
+    "case": "intact",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "intact",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "intact",
+    "arm": "C",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "intact",
+    "arm": "D",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "revision",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "revision",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "revision",
+    "arm": "C",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "revision",
+    "arm": "D",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "tampered",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "tampered",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "tampered",
+    "arm": "C",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "tampered",
+    "arm": "D",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "tampered_successor",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "tampered_successor",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "tampered_successor",
+    "arm": "C",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "tampered_successor",
+    "arm": "D",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "ambiguous",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "ambiguous",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "ambiguous",
+    "arm": "C",
+    "retrieve": {
+      "kind": "ambiguous",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "ambiguous",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "ambiguous",
+    "arm": "D",
+    "retrieve": {
+      "kind": "ambiguous",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "ambiguous",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "stale_replaced",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "stale_replaced",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "stale_replaced",
+    "arm": "C",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "stale_replaced",
+    "arm": "D",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "stale_withdrawn",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "stale_withdrawn",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "stale_withdrawn",
+    "arm": "C",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "stale_withdrawn",
+    "arm": "D",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "withdrawn_chain",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "withdrawn_chain",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "withdrawn_chain",
+    "arm": "C",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "withdrawn_chain",
+    "arm": "D",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "unsupported",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "unsupported",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "unsupported",
+    "arm": "C",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "unsupported",
+    "arm": "D",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "unknown",
+    "arm": "A",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "unknown",
+    "arm": "B",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "unknown",
+    "arm": "C",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "unknown",
+    "arm": "D",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "wrong_pin",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "wrong_pin",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "wrong_pin",
+    "arm": "C",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "wrong_pin",
+    "arm": "D",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "duplicate",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "duplicate",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "duplicate",
+    "arm": "C",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "duplicate",
+    "arm": "D",
+    "retrieve": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "not_in_corpus",
+      "id": null,
+      "answer_supported": false
+    }
+  },
+  {
+    "case": "rechecked",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "rechecked",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0004",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0004",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "rechecked",
+    "arm": "C",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0004",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0004",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "rechecked",
+    "arm": "D",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0004",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0004",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "author_neutral",
+    "arm": "A",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0001",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0001",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "author_neutral",
+    "arm": "B",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "author_neutral",
+    "arm": "C",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  },
+  {
+    "case": "author_neutral",
+    "arm": "D",
+    "retrieve": {
+      "kind": "retrieved",
+      "id": "DOC-0002",
+      "answer_supported": false
+    },
+    "ask": {
+      "kind": "return",
+      "id": "DOC-0002",
+      "answer_supported": true
+    }
+  }
+]

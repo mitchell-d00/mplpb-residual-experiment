@@ -1,0 +1,110 @@
+{
+  "A": {
+    "ineligible_claim_serving_rate": {
+      "numerator": 9,
+      "denominator": 11,
+      "rate": 0.8181818181818182
+    },
+    "ambiguous_ownership_detection": {
+      "numerator": 0,
+      "denominator": 1,
+      "rate": 0.0
+    },
+    "stale_derivative_rejection": {
+      "numerator": 0,
+      "denominator": 2,
+      "rate": 0.0
+    },
+    "supported_answer_false_promotion": {
+      "numerator": 7,
+      "denominator": 8,
+      "rate": 0.875
+    },
+    "answerable_query_coverage": {
+      "numerator": 3,
+      "denominator": 6,
+      "rate": 0.5
+    }
+  },
+  "B": {
+    "ineligible_claim_serving_rate": {
+      "numerator": 7,
+      "denominator": 11,
+      "rate": 0.6363636363636364
+    },
+    "ambiguous_ownership_detection": {
+      "numerator": 0,
+      "denominator": 1,
+      "rate": 0.0
+    },
+    "stale_derivative_rejection": {
+      "numerator": 0,
+      "denominator": 2,
+      "rate": 0.0
+    },
+    "supported_answer_false_promotion": {
+      "numerator": 7,
+      "denominator": 8,
+      "rate": 0.875
+    },
+    "answerable_query_coverage": {
+      "numerator": 4,
+      "denominator": 6,
+      "rate": 0.6666666666666666
+    }
+  },
+  "C": {
+    "ineligible_claim_serving_rate": {
+      "numerator": 0,
+      "denominator": 11,
+      "rate": 0.0
+    },
+    "ambiguous_ownership_detection": {
+      "numerator": 1,
+      "denominator": 1,
+      "rate": 1.0
+    },
+    "stale_derivative_rejection": {
+      "numerator": 2,
+      "denominator": 2,
+      "rate": 1.0
+    },
+    "supported_answer_false_promotion": {
+      "numerator": 0,
+      "denominator": 8,
+      "rate": 0.0
+    },
+    "answerable_query_coverage": {
+      "numerator": 6,
+      "denominator": 6,
+      "rate": 1.0
+    }
+  },
+  "D": {
+    "ineligible_claim_serving_rate": {
+      "numerator": 0,
+      "denominator": 11,
+      "rate": 0.0
+    },
+    "ambiguous_ownership_detection": {
+      "numerator": 1,
+      "denominator": 1,
+      "rate": 1.0
+    },
+    "stale_derivative_rejection": {
+      "numerator": 2,
+      "denominator": 2,
+      "rate": 1.0
+    },
+    "supported_answer_false_promotion": {
+      "numerator": 0,
+      "denominator": 8,
+      "rate": 0.0
+    },
+    "answerable_query_coverage": {
+      "numerator": 6,
+      "denominator": 6,
+      "rate": 1.0
+    }
+  }
+}
